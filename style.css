@@ -27,7 +27,7 @@ body {
 
 .gen-div {
   border: var(--color-border) solid 2px;
-  background: url(/div-background-alt2.png) no-repeat center center fixed;
+  background: url(https://github.com/HorusOfTheWest/argue.js/blob/main/div-background-alt2.png?raw=true) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -408,9 +408,7 @@ body {
 
 #section-challenge {
   position: relative;
-  /* background-color: turquoise; */
   left: 0px;
-  /* opacity: 50%; */
   height: 100vh;
   width: 100vw;
 }
