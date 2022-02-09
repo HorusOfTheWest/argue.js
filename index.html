@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>argue.js</title>
+    <script defer type="module" src="argue.mjs"></script>
+  </head>
+  <body>
+    <div id='document-master'>
+      <div id='section-main'>
+    <div class="gen-div" id="div--teacher">
+      <!-- <div class="gen-header-div">
+        <a class="gen-header-title">Argument Theory Teacher</a>
+      </div> -->
+      <p class='gen-header'>argue.js | Coding & Argument <button class='gen-btn-close-box' id='notes-btn'>📓</button></p>
+      <div class="gen-link-block-list--div" id="lesson-selector">
+        <a id="link-syllogism">The Syllogism</a>
+        <a id="link-modus-ponens">Modus Ponens</a>
+        <a id="link-modus-ponens">Modus Tollens</a>
+      </div>
+      <div class="hidden" id="teacher-phase--div">
+        <div id="example-text--div">
+          <p id="example-text">Hello</p>
+        </div>
+        <div id="explainer-text--div">
+          <a id="explainer-text">Hello</a>
+        </div>
+      </div>
+      <div class="gen-btns-div--div hidden" id="slide-show--btns-div">
+        <button
+          class="gen-btns-div--btn gen-btns-div--btn-left"
+          id="slide-show--btn-previous"
+        >
+          Previous
+        </button>
+        <button
+          class="gen-btns-div--btn gen-btns-div--btn-right"
+          id="slide-show--btn-next"
+        >
+          Next
+        </button>
+      </div>
+      <div class="gen-div hidden" id="notes-interface--div">
+        <p class='gen-header' id='notes-header'>Notes<button class="gen-btn-close-box" id="notes--btn-minimize">
+            &mdash;
+          </button></p>
+        
+        <textarea id='notes-textarea'></textarea>
+      </div>
+      <div class="hidden" id="code-div">
+        <div class="code-line-full">
+          <a>01 </a>
+          <div class="code-line-div">
+            <span>class</span> <input type="text" value="Men" class="code-input" id='class-name-input' /> {
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>02 </a>
+          <div class="code-line-div">
+            &nbsp;&nbsp;&nbsp;&nbsp;<input
+              value="mortal"
+              class="code-input"
+            />&nbsp;:&nbsp;&nbsp;<input value="true" class="code-input" />
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>03 </a>
+          <div class="code-line-div">
+            &nbsp;&nbsp;&nbsp;&nbsp;constructor(&nbsp;'&nbsp;<input
+              value="name"
+              class="code-input"
+              id='constructed-value-input'
+            />&nbsp;'&nbsp;){
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>04 </a>
+          <div class="code-line-div">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.<a class='constructed-value'><a></a>
+            =
+            <a  class='constructed-value' id='constructed-value-one'></a>
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>05 </a>
+          <div class="code-line-div">};</div>
+        </div>
+        <div class="code-line-full">
+          <a>06 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>07 </a>
+          <div class="code-line-div">new <a  id='className'></a>(&nbsp;<input class="code-input" value='Socrates'>&nbsp;)</div>
+        </div>
+        <div class="code-line-full">
+          <a>08 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>09 </a>
+          <div class="code-line-div">
+            if (&nbsp;<input value="Men" class="code-input" />&nbsp;.hasOwnProperty(&nbsp;'&nbsp;<input value='mortal' class='code-input'>&nbsp;'&nbsp;)
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>10 </a>
+          <div class="code-line-div">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&& &nbsp;<input
+              value="Socrates"
+              class="code-input"
+            />&nbsp; instanceof &nbsp;<input
+              value="Men"
+              class="code-input"
+            />&nbsp;)
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>11 </a>
+          <div class="code-line-div">
+            &nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;<input
+              value="Socrates"
+              class="code-input"
+            />&nbsp;.&nbsp;<input value='mortal' class="code-input">&nbsp; = &nbsp;<input value="true" class="code-input" />&nbsp;};
+          </div>
+        </div>
+        <div class="code-line-full">
+          <a>12 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>13 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>14 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>15 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>16 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>17 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>18 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>19 </a>
+          <div class="code-line-div"></div>
+        </div>
+        <div class="code-line-full">
+          <a>20 </a>
+          <div class="code-line-div"></div>
+        </div>
+      </div>
+      <div class="gen-btns-div--div hidden" id="code--btns-div">
+        <button
+          class="gen-btns-div--btn gen-btns-div--btn-left"
+          id="code--btn-generate-argument"
+        >
+          Parse Argument
+        </button>
+        <button
+          class="gen-btns-div--btn gen-btns-div--btn-right"
+          id="code--btn-check-code"
+        >
+          Check Code
+        </button>
+      </div>
+      <div class='gen-div hidden' id='argument-generator-div'>
+        <p class='gen-header'>Argument Generator</p>
+        <div id='argument-generator-subdiv'>
+          <p id='argument-generator-line-one'>Hello</p>
+          <p  id='argument-generator-line-two'>Hello</p>
+          <p  id='argument-generator-line-three'>Hello</p>
+          <p id='argument-generator-status'>Check Code to Assess Validity</p>
+        </div>
+        <div id='div-close-bottom'>
+          <button id='argument-generator--btn-close'>&#10006;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id='section-challenge'>
+      <div id='section-challenge'>
+        <div id='interlocutor-img--div'>
+          <img id='interlocutor--img' src='/socratesBust.png'>
+        </div>
+        <div class='gen-div' id='interlocutor-text--div'>
+          <div id='interlocutor-text--nametag-div'><div id='interlocutor-text--nametag-subdiv'><p id='nametag-text'>Socrates</p></div></div>
+          <p id='challenge-prompt'></p>
+        </div>
+        <div class='gen-div' id='user-response--div'>
+          <div class='challenge-response--div'><a>1. </a><a class='challenge-response' id='question-response-1'></a></div>
+          <div class='challenge-response--div'><a>2. </a><a class='challenge-response' id='question-response-2'></a></div>
+          <div class='challenge-response--div generated-response--div'><a>3. </a><a class='challenge-response' id='question-response-3'></a></div>
+        </div>
+        <div class='gen-div' id='score-count--div'>
+          <p>Score: <a id='score-count'>0</a></p>
+        </div>
+    </div>
+  </div>
+    
+  
+  </body>
+</html>

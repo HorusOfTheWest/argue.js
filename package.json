@@ -1,0 +1,12 @@
+{
+  "name": "argue.js",
+  "version": "1.0.0",
+  "description": "Teaches argument theory & JavaScript Basics",
+  "main": "argue.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "view:cov": "cd coverage/lcov-report && index.html"
+  },
+  "author": "Aydin Karasapan",
+  "license": "ISC"
+}
